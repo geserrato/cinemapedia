@@ -52,6 +52,7 @@ class _HomeViewState extends ConsumerState<_HomeView> {
           pinned: false,
           floating: true,
           flexibleSpace: FlexibleSpaceBar(
+            centerTitle: true,
             title: CustomAppBar(),
           ),
         ),
