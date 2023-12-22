@@ -5,7 +5,7 @@ import '../../domain/repositories/local_storage_repository.dart';
 class LocalStorageRepositoryImpl extends LocalStorageRepository {
   final LocalStorageDataSource dataSource;
 
-  LocalStorageRepositoryImpl({required this.dataSource});
+  LocalStorageRepositoryImpl(this.dataSource);
 
   @override
   Future<bool> isFavorite(int movieId) {
